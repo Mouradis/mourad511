@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1B1B32;
+ }
+
+@media all and (max-width: 480px){
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #0A0A23;
+    height: 53px;
+    color: #F5F6F7;
+  }
+
+ .mid {
+    margin-left: 9px;
+ }
+ .right{
+    margin-right: 9px;
+    margin-top: 3px;
+ }
+
+
+
+ nav{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    margin-top: 120px;
+ }
+
+ .main-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6F7;
+    width: 300px;
+    height: 140px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+    flex-direction: column;
+ }
+ .insta{
+    display: flex;
+    font-size: 15px;
+    justify-content: left;
+    margin-top: 4px;
+    padding-right: 5px;
+ }
+
+ .instaa{
+    display: flex;
+    color: dimgray;
+    flex-direction: row;
+    margin-left: 10px;
+    font-size: 11px;
+    justify-content: right;
+  
+    
+ }
+ .description{
+    display: flex;
+    width: 300px;
+    height: 60px;
+    background-color: #0A0A23;
+    border-radius: 0 0 10px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #FECC4C;
+ }
+.studies{
+    font-size: 13px;
+    margin: 4px 10px 0px 6px ;
+}
+
+.hobby{
+    font-size: 13px;
+    margin: 4px 6px 0px 6px;  
+}
+
+nav:active{
+    transform:scale(1.2);
+}
+
+footer{
+    display: flex;
+    margin-top: 200px;
+    background-color: #3B3B4F;
+    height: 115px;
+    justify-content:center ;
+    border-radius: 10px 10px 0 0;
+    flex-direction: column;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0A0A23;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: auto;
+    color: #FECC4C;
+}
+.phone{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.nbr{
+    margin-left: 10px;
+    margin-top: 3px;
+    color: #0A0A23;
+}
+.mail{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.mil{
+    margin-left: 10px;
+    margin-top: 3px;
+    color: #0A0A23;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    background-color: #FECC4C;
+    border-radius: 50%;
+    width: 25px;
+    padding: 4px;
+    flex-direction: row;
+}
+ 
+    
+}
